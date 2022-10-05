@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/1644303159_Cloud-gaming-GeForce-Now-was-better-than-my-gaming-PC.jpg);
+    animation: slide 20s infinite;
+    
+}
+
+@keyframes slide{
+    25%{
+        background: url(image/Pakistani-Gamers-Want-a-Seat-at-the-Table-Culture-shutterstock_1949862841.png);
+    }
+    50%{
+        background: url(image/pexels-lucie-liz-3165335.jpg);
+    }
+    75%{
+        background: url(image/YXNzZXRzL2Jhbm5lcnMvbmVvbi1saW5lLWNpcmN1aXQtYm9hcmQtbmVvbi1kaWdpdGFsLWJhY2tncm91bmQtcGluay1uZW9uLWxpbmVzLW1vZGVybi10ZWNobm9sb2d5LXByaW50ZWQtY2lyY3VpdC1ib2FyZC5qcGc=.jfif);
+        
+    }
+    100%{
+        background: url(image/Gear-Rant-Game-Family-Plans-1334436001.png);
+    }
+}
